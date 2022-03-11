@@ -1,0 +1,448 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.html{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	display: flex;
+	flex-direction: column;;
+	justify-content: center;
+	align-content: center;
+	background-color: #DBE5E7;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	max-width: 1500px;
+	display:flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.btn_up{
+	position: fixed;
+	right:10px;
+	bottom: 10px;
+	display:block;
+	background-color:#10C8BD;
+	color: #93F8F8;
+ 	font-size: 1rem;
+	font-weight: 700;
+	padding: 1rem 0;
+	transition: .2s;
+	width: 3rem;
+	text-align: center;	
+	border: 2px #10C8BD solid;
+}
+.btn_up:hover{
+	color: #62A5A5;
+	border: 2px solid;
+}
+.des-dev{
+	background: url(../Img/laponchair.jpg) 0 50% no-repeat;
+	background-size:cover;
+	display:flex;
+	flex-direction:column;
+	height: 900px;
+}
+.menu-box{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	height: 1rem;
+	margin: 2rem 3rem;
+}
+.logo{
+	transform: rotate(180deg);
+	height: 2rem;
+	
+}
+.menu{
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	height: 1rem;
+	width: 30%
+	list-style: none;
+}
+.menu a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	margin: 1rem;
+	color: #05060B;
+	transition: .1s;
+}
+.menu a:hover{
+	color: #0EC6C1;
+	font-weight: 800;
+}
+.des-dev-content-box{
+	display: flex;
+	justify-content: flex-end;
+	padding: 5rem 0 0 0;
+}
+.des-dev-content{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 5rem 2rem;
+	width: 50%;
+	height: 800px;
+}
+.title{
+	font-size: 3rem;
+	padding: 2rem 0;
+	font-weight: 700;
+}
+.ttl-des-dev{
+	justify-content: flex-start;
+}
+.par{
+	font-size: 1.3rem;
+	color: #929292;
+	padding: 1rem 0;
+	text-shadow: 1px 0.5px #bdbdbd;
+	line-height: 1.9rem;
+}
+.btn{
+	display:flex;
+	justify-content: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding:1rem 3rem;
+	background-color: #10C8BD;
+	width: 30%;
+	color: #93F8F8;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 1rem 0;
+	transition: color .2s;
+	box-sizing: border-box;
+	border: 2px #10C8BD solid;
+}
+.btn:hover{
+	color: #62A5A5;
+	border: 2px solid;
+	transform: skew(-10deg, 0deg);
+}
+.about{
+	display:flex;
+	align-content: center;
+	justify-content: center;
+	background-color: #ffffff;
+}
+.about-content{
+	display:flex;
+	flex-direction: column;
+	max-width: 50%;
+	align-items: center;
+	padding: 5rem 0;
+	text-align: center;
+}
+.ttl-about{
+	justify-content: center;
+}
+.sign{
+	width: 300px;
+	padding: 1rem;
+}
+.skills{
+	background: url(../Img/a%20pencil%20and%20a%20gift.jpg) no-repeat;
+	background-size:cover;
+	background-position: top;
+	display:flex;
+	flex-direction:column;
+	height: 700px;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0 3rem;
+}
+.meas-name{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1rem;
+	padding: 2rem 0 0.5rem 0;
+	width: 900px;
+}
+.skills progress::-webkit-progress-bar-value{
+	width: 900px;
+}
+.bar{
+	width: 700px;
+}
+.count{
+	display: flex;
+	justify-content: space-around;
+	background-color: #10C8BD;
+	height: 300px;
+}
+.count-box{
+	display: flex;;
+}
+.count-box ::before{
+	width: 3rem;
+	height: 3rem;
+	padding: 0.5rem;
+}
+.icon-container{
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	color:gray;
+	padding: 0.5rem 0;
+}
+.element.style {
+}
+.count-icons-pos{
+	display:flex;
+	align-items: center;
+	color:white;
+	padding: 1rem 0 0 0;
+	font-size: 2rem;
+}
+.count-box-name{
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1rem;
+	color: white;
+	padding: 1rem;
+}
+.prodex{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	flex-wrap:wrap;
+	margin: 0 auto;
+}
+.prodex-cont{
+
+	width: 25%;
+}
+.example{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+}
+.example-item{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+.example-hvr{
+	position: absolute;
+	font-size: 2rem;
+	color: rgb(255, 255, 255);
+	top:0;
+	left: 0;
+	background-color: rgb(5, 5, 5);
+	width: 100%;
+	height: 100%;
+	opacity:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+}
+
+.example-hvr:hover{
+	opacity:0.5;
+}
+.fa-eye{}
+.postprodex{
+	background-color: #DBE5E7;
+	text-align: center;
+	display:block;
+}
+.work-process{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 5rem 0;
+	background-color: #ffffff;
+}
+.par-work-pr{
+	max-width: 30%;
+}
+.work-process-video{
+	width:1200px;
+	padding: 0 0 4rem 0;
+}
+.services{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #DBE5E7;
+	padding: 3rem 0;
+	
+}
+.services-item-icon{
+	height: 2rem;
+	padding: 0 0 1rem 0;
+}
+.services-item{
+	display: flex;
+	flex-direction:column;
+	width: 22%;
+	justify-content: flex-start;
+	align-content: center;
+	padding: 2rem 0;
+}
+.services-item-title{
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	font-weight: 900;
+	text-align: center;
+	text-shadow: 1px 0.5px #BDBDBD;
+}
+.par-serv{
+	text-align: center;
+}
+.quote{
+	background-color: #10C8BD;
+	height:450px;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+}
+.quote-text{
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	width: 60%;
+		
+}
+.quote-author{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding: 2rem;
+}
+.brends{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	background-color: white;
+}
+.brends-item{
+	display:flex;
+	width: 150px;
+	height: 150px;
+}
+.form-page{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.form-text{
+	text-align: center;
+	width: 60%;
+	align-items: center;
+}
+.form{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.form-container{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	width: 60rem;
+	align-content: space-around;
+}
+.form-group-format {
+	width: 48%;
+}
+.discretion {
+	padding: 1.5rem 0;
+}
+.form-group{
+	display: flex;
+	justify-content: space-between;
+}
+.form-group input{
+	line-height: 2rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+.form-container input{
+	line-height: 2rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+.form textarea{
+	padding: 3rem 0;
+	resize:none;
+	width: 100%;
+	box-sizing: border-box;
+}
+.form-container textarea:placeholder{
+	align-content: flex-start;
+}
+.btn-form-btn{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	padding: 2rem 0;
+}
+.footer{
+	display:flex;
+	background-color: black;
+	height: 8rem;
+	color: white;
+	padding: 2rem 0;
+	justify-content: space-around;
+	align-content: center;	
+}
+.footer-name-main{
+	color: white;
+	font-size: 2rem;
+	padding: 0 0 2rem 0;
+	line-height: 3rem;
+}
+.footer-name-secondary{
+	line-height: 1.7rem;
+}
+.footer-cont{
+	text-transform: capitalize;
+	line-height: 1.7rem;
+}
+.footer-links{
+	display:flex;
+	justify-content: space-between;
+	width: 10%;
+	text-transform: capitalize;
+	line-height: 1.7rem;
+}
+.footer-smm{
+	text-transform: capitalize;
+	line-height: 1.7rem;
+}
+
+
+
+
+
+
+
